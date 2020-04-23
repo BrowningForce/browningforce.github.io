@@ -1,0 +1,82 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #f4f5ef;
+}
+
+.main {
+    background: white;
+    display: grid;
+    grid-template-columns: 400px 800px; 
+}
+
+
+.sidebar {
+    color: white;
+    background: #1e2939;
+    width: 370px;
+    box-sizing: border-box;
+}
+
+.sidebar i {
+    color: #ff6b08;
+    align-self: center;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li::before {
+    content: '\2022';
+    color: #ff6b08;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+}
+
+.sidebar img {
+    padding-top: 1.5rem;
+    width: 100%;
+}
+
+.soft-skills,
+.tech-skills,
+.contacts {
+    padding-left: 40px;
+}
+
+.main-content {
+    margin-left: 5rem;
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+
+.company-info h4 span {
+    color: #ff6b08;
+}
+
+.time-period {
+    font-size: 12px;
+    color: #a8a8a8;
+}
+
+.education-container h4{
+    color: #ff6b08;
+}
+
+a {
+    color: #ff6b08;
+}
+
+.projects {
+    width: 500px;
+}
